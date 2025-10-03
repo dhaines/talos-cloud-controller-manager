@@ -73,8 +73,7 @@ func (i *instances) InstanceExists(_ context.Context, node *v1.Node) (bool, erro
 	}
 
 	if notReady {
-		if node.Labels[ClusterNodePlatformLabel] == "aws" &&
-			node.Labels["polymathic.io/costs-money"] == "true" {
+		if node.Labels[ClusterNodePlatformLabel] == "aws" {
 			return false, nil
 		}
 		if node.Labels[ClusterNodePlatformLabel] == "gcp" &&
