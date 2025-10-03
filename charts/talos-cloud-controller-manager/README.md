@@ -4,7 +4,7 @@
 
 Talos Cloud Controller Manager Helm Chart
 
-**Homepage:** <https://github.com/siderolabs/talos-cloud-controller-manager>
+**Homepage:** <https://github.com/dhaines/talos-cloud-controller-manager>
 
 ## Maintainers
 
@@ -14,7 +14,7 @@ Talos Cloud Controller Manager Helm Chart
 
 ## Source Code
 
-* <https://github.com/siderolabs/talos-cloud-controller-manager>
+* <https://github.com/dhaines/talos-cloud-controller-manager>
 
 ## Talos machine config
 
@@ -78,7 +78,7 @@ helm upgrade -i --namespace=kube-system -f talos-ccm.yaml \
 | extraArgs | list | `[]` | Any extra arguments for talos-cloud-controller-manager |
 | fullnameOverride | string | `""` | String to fully override deployment name. |
 | image.pullPolicy | string | `"IfNotPresent"` | Pull policy: IfNotPresent or Always. |
-| image.repository | string | `"ghcr.io/siderolabs/talos-cloud-controller-manager"` | CCM image repository. |
+| image.repository | string | `"ghcr.io/dhaines/talos-cloud-controller-manager"` | CCM image repository. |
 | image.tag | string | `""` | Overrides the image tag whose default is the chart appVersion. |
 | imagePullSecrets | list | `[]` | Optionally specify an array of imagePullSecrets. Secrets must be manually created in the namespace. ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/ |
 | logVerbosityLevel | int | `2` | Log verbosity level. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-instrumentation/logging.md for description of individual verbosity levels. |

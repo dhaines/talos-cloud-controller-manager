@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/ipam"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/ipam"
 
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	coreinformers "k8s.io/client-go/informers/core/v1"

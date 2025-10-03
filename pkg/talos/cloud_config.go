@@ -5,7 +5,7 @@ import (
 
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/transformer"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/transformer"
 
 	"k8s.io/klog/v2"
 )

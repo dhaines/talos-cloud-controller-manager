@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeselector"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/transformer"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/nodeselector"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/transformer"
 	"github.com/siderolabs/talos/pkg/machinery/nethelpers"
 	"github.com/siderolabs/talos/pkg/machinery/resources/network"
 	"github.com/siderolabs/talos/pkg/machinery/resources/runtime"

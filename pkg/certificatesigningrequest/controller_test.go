@@ -14,7 +14,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/certificatesigningrequest"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/certificatesigningrequest"
 
 	certificatesv1 "k8s.io/api/certificates/v1"
 	clientkubernetes "k8s.io/client-go/kubernetes"

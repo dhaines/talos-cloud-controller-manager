@@ -9,7 +9,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeselector"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/nodeselector"
 	"github.com/siderolabs/talos/pkg/machinery/resources/hardware"
 	"github.com/siderolabs/talos/pkg/machinery/resources/runtime"
 

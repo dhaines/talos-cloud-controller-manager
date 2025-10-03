@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/metrics"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/transformer"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/net"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/platform"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/metrics"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/transformer"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/utils/net"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/utils/platform"
 	"github.com/siderolabs/talos/pkg/machinery/resources/hardware"
 	"github.com/siderolabs/talos/pkg/machinery/resources/runtime"
 
@@ -73,6 +73,10 @@ func (i *instances) InstanceExists(_ context.Context, node *v1.Node) (bool, erro
 	}
 
 	if notReady {
+		if node.Labels[ClusterNodePlatformLabel] == "aws" &&
+			node.Labels["polymathic.io/costs-money"] == "true" {
+			return false, nil
+		}
 		if node.Labels[ClusterNodePlatformLabel] == "gcp" &&
 			node.Labels[ClusterNodeLifeCycleLabel] == "spot" {
 			return false, nil

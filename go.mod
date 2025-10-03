@@ -1,4 +1,4 @@
-module github.com/siderolabs/talos-cloud-controller-manager
+module github.com/dhaines/talos-cloud-controller-manager
 
 go 1.25.1
 

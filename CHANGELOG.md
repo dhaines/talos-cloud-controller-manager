@@ -1,6 +1,6 @@
 
 <a name="v1.11.0"></a>
-## [v1.11.0](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.10.1...v1.11.0) (2025-09-17)
+## [v1.11.0](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.10.1...v1.11.0) (2025-09-17)
 
 Welcome to the v1.11.0 release of Talos CCM!
 
@@ -12,7 +12,7 @@ Welcome to the v1.11.0 release of Talos CCM!
 * 9c000cf chore: bump deps
 
 <a name="v1.10.1"></a>
-## [v1.10.1](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.10.0...v1.10.1) (2025-06-27)
+## [v1.10.1](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.10.0...v1.10.1) (2025-06-27)
 
 Welcome to the v1.10.1 release of Talos CCM!
 
@@ -21,7 +21,7 @@ Welcome to the v1.10.1 release of Talos CCM!
 * bbe9294 chore: bump deps
 
 <a name="v1.10.0"></a>
-## [v1.10.0](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.9.1...v1.10.0) (2025-06-05)
+## [v1.10.0](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.9.1...v1.10.0) (2025-06-05)
 
 Welcome to the v1.10.0 release of Talos CCM!
 
@@ -32,7 +32,7 @@ Welcome to the v1.10.0 release of Talos CCM!
 * a0e8169 chore: bump deps
 
 <a name="v1.9.1"></a>
-## [v1.9.1](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.9.0...v1.9.1) (2025-04-11)
+## [v1.9.1](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.9.0...v1.9.1) (2025-04-11)
 
 Welcome to the v1.9.1 release of Talos CCM!
 
@@ -53,7 +53,7 @@ Welcome to the v1.9.1 release of Talos CCM!
 * 82c154a feat: add taints capabilities
 
 <a name="v1.9.0"></a>
-## [v1.9.0](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.8.1...v1.9.0) (2025-01-03)
+## [v1.9.0](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.8.1...v1.9.0) (2025-01-03)
 
 Welcome to the v1.9.0 release of Talos CCM!
 
@@ -63,7 +63,7 @@ Welcome to the v1.9.0 release of Talos CCM!
 * 2cfa7c6 chore: bump deps
 
 <a name="v1.8.1"></a>
-## [v1.8.1](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.8.0...v1.8.1) (2024-10-21)
+## [v1.8.1](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.8.0...v1.8.1) (2024-10-21)
 
 Welcome to the v1.8.1 release of Talos CCM!
 
@@ -79,7 +79,7 @@ Welcome to the v1.8.1 release of Talos CCM!
 * 628a7b7 feat: make kube-apiserver endpoint configurable
 
 <a name="v1.8.0"></a>
-## [v1.8.0](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.6.0...v1.8.0) (2024-09-24)
+## [v1.8.0](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.6.0...v1.8.0) (2024-09-24)
 
 Welcome to the v1.8.0 release of Talos CCM!
 
@@ -115,7 +115,7 @@ Welcome to the v1.8.0 release of Talos CCM!
 * 22e3984 feat: node transformer
 
 <a name="v1.6.0"></a>
-## [v1.6.0](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.4.0...v1.6.0) (2024-04-21)
+## [v1.6.0](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.4.0...v1.6.0) (2024-04-21)
 
 Welcome to the v1.6.0 release of Talos CCM!
 
@@ -141,7 +141,7 @@ Welcome to the v1.6.0 release of Talos CCM!
 * 562e738 feat: sign images
 
 <a name="v1.4.0"></a>
-## [v1.4.0](https://github.com/siderolabs/talos-cloud-controller-manager/compare/v1.3.0...v1.4.0) (2023-05-27)
+## [v1.4.0](https://github.com/dhaines/talos-cloud-controller-manager/compare/v1.3.0...v1.4.0) (2023-05-27)
 
 Welcome to the v1.4.0 release of Talos CCM!
 

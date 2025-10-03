@@ -41,7 +41,7 @@ cluster:
   externalCloudProvider:
     enabled: true
     manifests:
-      - https://raw.githubusercontent.com/siderolabs/talos-cloud-controller-manager/main/docs/deploy/cloud-controller-manager.yml
+      - https://raw.githubusercontent.com/dhaines/talos-cloud-controller-manager/main/docs/deploy/cloud-controller-manager.yml
 ```
 
 ### Method 2: kubectl
@@ -49,13 +49,13 @@ cluster:
 Latest release:
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/siderolabs/talos-cloud-controller-manager/main/docs/deploy/cloud-controller-manager.yml
+kubectl apply -f https://raw.githubusercontent.com/dhaines/talos-cloud-controller-manager/main/docs/deploy/cloud-controller-manager.yml
 ```
 
 Latest stable version (edge):
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/siderolabs/talos-cloud-controller-manager/main/docs/deploy/cloud-controller-manager-edge.yml
+kubectl apply -f https://raw.githubusercontent.com/dhaines/talos-cloud-controller-manager/main/docs/deploy/cloud-controller-manager-edge.yml
 ```
 
 ### Method 3: helm chart
@@ -64,7 +64,7 @@ Helm chart documentation can be found [here](../charts/talos-cloud-controller-ma
 Values example can be found [here](../charts/talos-cloud-controller-manager/values-example.yaml)
 
 ```shell
-helm upgrade -i -n kube-system talos-cloud-controller-manager oci://ghcr.io/siderolabs/charts/talos-cloud-controller-manager
+helm upgrade -i -n kube-system talos-cloud-controller-manager oci://ghcr.io/dhaines/charts/talos-cloud-controller-manager
 ```
 
 ## Example
@@ -102,7 +102,7 @@ cluster:
 We use the [values-example.yaml](../charts/talos-cloud-controller-manager/values-example.yaml) to deploy your Talos Cloud Controller Manager.
 
 ```shell
-helm upgrade -i -n kube-system -f https://raw.githubusercontent.com/siderolabs/talos-cloud-controller-manager/main/charts/talos-cloud-controller-manager/values-example.yaml talos-cloud-controller-manager oci://ghcr.io/siderolabs/charts/talos-cloud-controller-manager
+helm upgrade -i -n kube-system -f https://raw.githubusercontent.com/dhaines/talos-cloud-controller-manager/main/charts/talos-cloud-controller-manager/values-example.yaml talos-cloud-controller-manager oci://ghcr.io/dhaines/charts/talos-cloud-controller-manager
 ```
 
 Check the result:

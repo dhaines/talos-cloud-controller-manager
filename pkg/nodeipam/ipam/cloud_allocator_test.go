@@ -23,7 +23,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/ipam/cidrset"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/ipam/cidrset"
 )
 
 func TestAddCIDRSet(t *testing.T) {

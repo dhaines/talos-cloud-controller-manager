@@ -23,11 +23,11 @@ import (
 	"net"
 	"strings"
 
-	nodeipamcontrolleroptions "github.com/siderolabs/talos-cloud-controller-manager/cmd/talos-cloud-controller-manager/options"
-	nodeipamcontroller "github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam"
-	nodeipamconfig "github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/config"
-	ipam "github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/ipam"
-	talosclient "github.com/siderolabs/talos-cloud-controller-manager/pkg/talosclient"
+	nodeipamcontrolleroptions "github.com/dhaines/talos-cloud-controller-manager/cmd/talos-cloud-controller-manager/options"
+	nodeipamcontroller "github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam"
+	nodeipamconfig "github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/config"
+	ipam "github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/ipam"
+	talosclient "github.com/dhaines/talos-cloud-controller-manager/pkg/talosclient"
 
 	cloudprovider "k8s.io/cloud-provider"
 	"k8s.io/cloud-provider/app"

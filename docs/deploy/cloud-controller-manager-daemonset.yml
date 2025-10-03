@@ -220,7 +220,7 @@ spec:
               - ALL
             seccompProfile:
               type: RuntimeDefault
-          image: "ghcr.io/siderolabs/talos-cloud-controller-manager:v1.11.0"
+          image: "ghcr.io/dhaines/talos-cloud-controller-manager:v1.11.0"
           imagePullPolicy: IfNotPresent
           command: ["/talos-cloud-controller-manager"]
           args:

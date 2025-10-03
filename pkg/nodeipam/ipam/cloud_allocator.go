@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/ipam/cidrset"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/talosclient"
-	controllerutil "github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/controller/node"
-	utilnode "github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/node"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/ipam/cidrset"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/talosclient"
+	controllerutil "github.com/dhaines/talos-cloud-controller-manager/pkg/utils/controller/node"
+	utilnode "github.com/dhaines/talos-cloud-controller-manager/pkg/utils/node"
 	"github.com/siderolabs/talos/pkg/machinery/resources/network"
 
 	v1 "k8s.io/api/core/v1"

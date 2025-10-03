@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"gotest.tools/v3/assert"
 
-	utilnet "github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/net"
+	utilnet "github.com/dhaines/talos-cloud-controller-manager/pkg/utils/net"
 )
 
 func TestFilterLocalNetIPs(t *testing.T) {

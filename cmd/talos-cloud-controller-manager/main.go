@@ -22,8 +22,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	kcmnames "github.com/siderolabs/talos-cloud-controller-manager/pkg/names"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/talos"
+	kcmnames "github.com/dhaines/talos-cloud-controller-manager/pkg/names"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/talos"
 
 	"k8s.io/apimachinery/pkg/util/wait"
 	cloudprovider "k8s.io/cloud-provider"

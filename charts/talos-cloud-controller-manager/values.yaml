@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   # -- CCM image repository.
-  repository: ghcr.io/siderolabs/talos-cloud-controller-manager
+  repository: ghcr.io/dhaines/talos-cloud-controller-manager
   # -- Pull policy: IfNotPresent or Always.
   pullPolicy: IfNotPresent
   # -- Overrides the image tag whose default is the chart appVersion.

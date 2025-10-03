@@ -2,9 +2,9 @@ apiVersion: v2
 type: application
 name: talos-cloud-controller-manager
 description: Talos Cloud Controller Manager Helm Chart
-home: https://github.com/siderolabs/talos-cloud-controller-manager
+home: https://github.com/dhaines/talos-cloud-controller-manager
 sources:
-  - https://github.com/siderolabs/talos-cloud-controller-manager
+  - https://github.com/dhaines/talos-cloud-controller-manager
 keywords:
   - ccm
   - kubernetes

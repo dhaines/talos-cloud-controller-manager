@@ -27,9 +27,9 @@ import (
 	"k8s.io/klog/v2"
 	netutils "k8s.io/utils/net"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/ipam/cidrset"
-	controllerutil "github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/controller/node"
-	nodeutil "github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/node"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/ipam/cidrset"
+	controllerutil "github.com/dhaines/talos-cloud-controller-manager/pkg/utils/controller/node"
+	nodeutil "github.com/dhaines/talos-cloud-controller-manager/pkg/utils/node"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/types"

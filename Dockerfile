@@ -15,7 +15,7 @@ RUN make build-all-archs
 ########################################
 
 FROM --platform=${TARGETARCH} scratch AS release
-LABEL org.opencontainers.image.source="https://github.com/siderolabs/talos-cloud-controller-manager" \
+LABEL org.opencontainers.image.source="https://github.com/dhaines/talos-cloud-controller-manager" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.description="Talos Cloud Controller Manager"
 

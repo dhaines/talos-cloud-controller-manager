@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/transformer"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/transformer"
 	"github.com/siderolabs/talos/pkg/machinery/resources/runtime"
 )
 

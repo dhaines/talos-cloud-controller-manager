@@ -4,7 +4,7 @@ Talos CCM is a set of controllers that manage cloud resources in a Kubernetes cl
 To check the default state of the controllers, run the following command:
 
 ```shell
-docker run --rm -ti ghcr.io/siderolabs/talos-cloud-controller-manager:edge --help | grep -A 2 'controllers'
+docker run --rm -ti ghcr.io/dhaines/talos-cloud-controller-manager:edge --help | grep -A 2 'controllers'
 ```
 
 Output:

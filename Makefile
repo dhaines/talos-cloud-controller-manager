@@ -1,5 +1,5 @@
 REGISTRY ?= ghcr.io
-USERNAME ?= siderolabs
+USERNAME ?= dhaines
 PROJECT ?= talos-cloud-controller-manager
 IMAGE ?= $(REGISTRY)/$(USERNAME)/$(PROJECT)
 HELMREPO ?= $(REGISTRY)/$(USERNAME)/charts

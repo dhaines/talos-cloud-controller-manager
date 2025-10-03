@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/metrics"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/transformer"
-	utilsnet "github.com/siderolabs/talos-cloud-controller-manager/pkg/utils/net"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/metrics"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/transformer"
+	utilsnet "github.com/dhaines/talos-cloud-controller-manager/pkg/utils/net"
 	"github.com/siderolabs/talos/pkg/machinery/constants"
 	"github.com/siderolabs/talos/pkg/machinery/nethelpers"
 	"github.com/siderolabs/talos/pkg/machinery/resources/network"

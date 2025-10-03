@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/talosclient"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/talosclient"
 
 	clientkubernetes "k8s.io/client-go/kubernetes"
 	cloudprovider "k8s.io/cloud-provider"

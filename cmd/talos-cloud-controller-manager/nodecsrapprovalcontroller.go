@@ -19,8 +19,8 @@ package main
 import (
 	"context"
 
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/certificatesigningrequest"
-	"github.com/siderolabs/talos-cloud-controller-manager/pkg/talos"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/certificatesigningrequest"
+	"github.com/dhaines/talos-cloud-controller-manager/pkg/talos"
 
 	cloudprovider "k8s.io/cloud-provider"
 	app "k8s.io/cloud-provider/app"

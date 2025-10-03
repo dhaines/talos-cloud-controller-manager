@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/pflag"
 
-	nodeipamconfig "github.com/siderolabs/talos-cloud-controller-manager/pkg/nodeipam/config"
+	nodeipamconfig "github.com/dhaines/talos-cloud-controller-manager/pkg/nodeipam/config"
 )
 
 // NodeIPAMControllerOptions holds the NodeIpamController options.
